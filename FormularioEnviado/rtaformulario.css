@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+              url('../img/supermercado.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000;
+}
+
+.thankyou .container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 60px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+  color: #0077B6; 
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.btn-home {
+  display: inline-block;
+  background-color: #39C413; 
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn-home:hover {
+  background-color: #207e06;
+}
