@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #000;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bloque {
@@ -20,6 +21,8 @@ body {
     text-transform: uppercase;
     min-height: 60px; 
     display: block;
+    width: 100%;
+    float: none;
 }
 
 #cuerpo { min-height: 300px; display: flex; align-items: center; justify-content: center; }
@@ -30,15 +33,6 @@ body {
     clear: both;
     height: 0;
     visibility: hidden;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.bloque {
-    width: 100%;
-    float: none;
 }
 
 .columna-central {
