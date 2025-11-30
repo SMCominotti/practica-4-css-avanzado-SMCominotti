@@ -79,6 +79,12 @@
               >Contacto</a
             >
           </li>
+          <!-- ACTIVIDAD 4.11.1 -->
+          <li>
+            <a class="menu flex" href="#zona-flex"
+            >Flex</a
+            >
+          </li>
         </ul>
       </nav>
 
@@ -129,13 +135,18 @@
 
       <section class="categorias">
         <h2>Nuestras categorías</h2>
+        <!-- Añadir la imagen sin ALT y el PDF (Para Actividad 4.7.1) -->
+        <div style="text-align: center; margin-bottom: 50px;">         
+           <a href="./enconstruccion/enconstruccion.html" class="enlace-pdf" target="_blank" style="font-weight: bold;">Descargar Ofertas (PDF)</a>
+        </div>
         <div class="categoria-grid">
           <a href="./productos/comida/frutasyverduras.html" class="categoria-card">
             <img src="./assets/img/comida.jpg" alt="Comida" >
             <h3>Comida</h3>
           </a>
           <a href="./productos/bebida/bebidasAlcoholicas.html" class="categoria-card">
-            <img src="./assets/img/bebidas.webp" alt="Bebidas" >
+            <img src="./assets/img/bebidas.webp" >
+            <!-- borro el alt segun pedido en la actividad 4.7.1 -->
             <h3>Bebidas</h3>
           </a>
           <a
@@ -151,6 +162,18 @@
           </a>
         </div>
       </section>
+      <!-- ACTIVIDAD 4.11.1 Sección Flexbox -->
+      <section id="zona-flex" class="practica-flexbox">
+    <h2>Práctica Flexbox</h2>
+    <div class="contenedor-flex">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+        <div class="item-flex">6</div>
+    </div>
+</section>
     </main>
 
     <footer class="site-footer">
@@ -240,7 +263,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        &copy; 2023 Supermercado DIW
+        &copy; 2025 Supermercado DIW
         <a href="./enconstruccion/enconstruccion.html"
           >Política de Privacidad y Cookies</a
         >
