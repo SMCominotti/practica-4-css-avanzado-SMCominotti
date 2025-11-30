@@ -1073,7 +1073,8 @@ img:not([alt]) {
 }
 
   .categoria-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+     padding: 0 20px; 
   }
 
   .formContacto {
